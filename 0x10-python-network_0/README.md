@@ -1,11 +1,12 @@
-README.md
 Python - Network #0
 In this networking project, I used curl in Bash scripts to send various types of HTTP headers. In the process, I learned about how URL's work, domain names, the many different HTTP request/repsonse header fields and status codes, and how to utilize cookies.
 
 Task six was an algorithm challenge separate from the overall project theme completed in Python.
 
+Tests ✔️
+tests: Folder of test files. Provided by Holberton School.
 Tasks 📃
-NOTE: The curl behavior in all Bash scripts were written to interact with a server set up on a container.
+NOTE: The curl behavior in all Bash scripts were written to interact with a server set up on a container provided by Holberton School.
 
 0. cURL body size 0-body_size.sh: Bash script that sends a GET request to a given URL and displays the size of the response body in bytes.
 
@@ -23,7 +24,7 @@ NOTE: The curl behavior in all Bash scripts were written to interact with a serv
 4-header.sh: Bash script that sends a GET request to a given URL with a header variable X-HolbertonSchool-User-Id=98 and displays the response body.
 5. cURL POST parameters
 
-5-post_params.sh: Bash script that sends a POST request to a given URL with the variables email=test.gmail.com and subject=I will always be here for PLD and displays the response body.
+5-post_params.sh: Bash script that sends a POST request to a given URL with the variables email=hr@holbertonschool.com and subject=I will always be here for PLD and displays the response body.
 6. Find a peak
 
 6-peak.py: [Technical interview preparation] - Python program that finds a peak in a list of unsorted integers.
